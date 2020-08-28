@@ -19,7 +19,7 @@ function linkAction(){
   navLink.forEach(n => n.classList.remove('active'));
   this.classList.add('active');
   
-  /*Remove menu mobile*/
+  /*Quitar Menu de Movil*/
   const navMenu = document.getElementById('nav-menu')
   navMenu.classList.remove('show')
 }
@@ -33,26 +33,26 @@ const sr = ScrollReveal({
     reset: true
 });
 
-/*--Scroll Home--*/
+/*--Scroll Inicio--*/
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 
-/*-Scroll About--*/
+/*-Scroll Sobre Mí--*/
 sr.reveal('.about__img',{}); 
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
-/*-Scroll skills--*/
+/*-Scroll Habilidades--*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
 sr.reveal('.skills__data',{interval: 200}); 
 sr.reveal('.skills__img',{delay: 600});
 
-/*-Scroll Work--*/
+/*-Scroll Proyectos--*/
 sr.reveal('.work__img',{interval: 200}); 
 
-/*S-Scroll Contact--*/
+/*S-Scroll Contacto--*/
 sr.reveal('.contact__input',{interval: 200}); 
 
