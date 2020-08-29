@@ -11,6 +11,7 @@
 :root{
   --first-color: #f48240;
   --second-color: #3e065f;
+  
 }
 
 /*-- Fuente y tipografia --*/
@@ -275,13 +276,13 @@ img{
   .skills-icon{
       font-size: 2rem;
       margin-right: var(--mb-2);
-      color: var(--first-color);
+      color: var(--second-color);
   }
   .skills-names{
       display: flex;
       align-items: center;
   }
-  .skills-bar{
+  .skills-bar{ /*--Barras--*/
   position: absolute;
   left: 0;
   bottom: 0;
@@ -292,30 +293,40 @@ img{
 }
     .skills-html{
     width: 75%;
+    background-color: var(--first-color);
+    border-radius: .5rem;
+
   }
   .skills-css{
     width: 65%;
+    background-color: var(--first-color);
+    border-radius: .5rem;
   }
   .skills-vuejs{
     width: 60%;
+    background-color: var(--first-color);
+    border-radius: .5rem;
   }
   .skills-js{
     width: 80%;
+    background-color: var(--first-color);
+    border-radius: .5rem;
   }
   .skills-reactjs{
     width: 20%;
+    background-color: var(--first-color);
+    border-radius: .5rem;
   }
   .skills-img{
     border-radius: .5rem;
   }
 
-  /* -- Pryectos--*/
+  /* -- Proyectos--*/
 .proyects-container{
   row-gap: 2rem;
 }
 .proyects-img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 .proyects-img img{
@@ -324,6 +335,24 @@ img{
 }
 .proyects-img img:hover{
   transform: scale(1.1);
+}
+
+/* --Contacto--*/
+.contact-input{
+  width: 100%;
+  font-size: var(--normal-font-size);
+  padding: 0.5rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  margin-bottom: var(--mb-4);
+}
+.contact-button{
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 
   /* -- MEDIA QUERIES--*/
@@ -386,6 +415,12 @@ img{
   }
   .about-img img{
     width: 300px;
+  }
+  .contact-form{
+    width: 460px;
+  }
+  .contact-container{
+    justify-items: center;
   }
 }
 

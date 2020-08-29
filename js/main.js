@@ -51,7 +51,7 @@ sr.reveal('.skills-data',{interval: 200});
 sr.reveal('.skills-img',{delay: 600});
 
 /*-Scroll Proyectos--*/
-sr.reveal('.work-img',{interval: 200}); 
+sr.reveal('.proyects-img',{interval: 200}); 
 
 /*S-Scroll Contacto--*/
 sr.reveal('.contact-input',{interval: 200}); 
