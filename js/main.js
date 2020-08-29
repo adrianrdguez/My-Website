@@ -12,7 +12,7 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 /*--Activar Desactivar*/
-const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll('.nav-link');   
 
 function linkAction(){
   /*Active link*/
@@ -34,25 +34,25 @@ const sr = ScrollReveal({
 });
 
 /*--Scroll Inicio--*/
-sr.reveal('.home__title',{}); 
+sr.reveal('.home-title',{}); 
 sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.home-img',{delay: 400}); 
+sr.reveal('.home-social-icon',{ interval: 200}); 
 
 /*-Scroll Sobre Mí--*/
-sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('.about__text',{delay: 400}); 
+sr.reveal('.about-img',{}); 
+sr.reveal('.about-subtitle',{delay: 400}); 
+sr.reveal('.about-text',{delay: 400}); 
 
 /*-Scroll Habilidades--*/
-sr.reveal('.skills__subtitle',{}); 
-sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skills__img',{delay: 600});
+sr.reveal('.skills-subtitle',{}); 
+sr.reveal('.skills-text',{}); 
+sr.reveal('.skills-data',{interval: 200}); 
+sr.reveal('.skills-img',{delay: 600});
 
 /*-Scroll Proyectos--*/
-sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.work-img',{interval: 200}); 
 
 /*S-Scroll Contacto--*/
-sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('.contact-input',{interval: 200}); 
 
