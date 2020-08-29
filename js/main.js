@@ -56,3 +56,9 @@ sr.reveal('.proyects-img',{interval: 200});
 /*S-Scroll Contacto--*/
 sr.reveal('.contact-input',{interval: 200}); 
 
+/*--Download CV--*/
+var link = document.createElement('a');
+link.href = url;
+link.download = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
+link.dispatchEvent(new MouseEvent('click'));
+
