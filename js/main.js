@@ -1,3 +1,4 @@
+var  language = "hola";
 /*--Enseñar Menu---*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -62,3 +63,15 @@ link.href = url;
 link.download = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
 link.dispatchEvent(new MouseEvent('click'));
 
+/*--Language--*/
+function change(){
+    if(language == "hola"){
+        document.getElementById("español").hidden = true;
+        document.getElementById("english").hidden = false;
+        language = "adios";
+    }else{
+        document.getElementById("español").hidden = true;
+        document.getElementById("english").hidden = false;
+        language = "hola";
+    }
+}
