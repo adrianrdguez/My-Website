@@ -1,163 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <title>Adrisite</title>
-</head>
+        <!------- UNICONS ------->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+        
+        <!------- SWIPER CSS ------->
+        <link rel="stylesheet" href="">
+        
+        <!------- CSS ------->
+        <link rel="stylesheet" href="">
 
-<body>
-    <!--Cabezal-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav-logo">Mi Portfolio</a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li lang="es" class="nav-item" id="español"><a href="#home" class="nav-link active">Inicio</a></li>
-                    <li lang="en" class="nav-item" id="english" hidden><a href="#home" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">Sobre Mi</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#proyects" class="nav-link">Proyectos</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!------- HEADER ------->
+        <header class="header" id="header">
+            
+        </header>
 
-    <main class="l-main">
-        <!--Inicio-->
-        <section class="home bd-grid" id="home">
-            <div class="home-data">
-                <h1 class="home-title">Bienvenido a mi página.<br>Me llamo <span class="home-title-color">Adrián.</span></h1>
-                <div class="home-social">
-                    <a href="https://www.linkedin.com/in/adri%C3%A1n-rodr%C3%ADguez-navas-186bb51aa/" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/adrianrdguez" class="home-social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-                    <a href="images/CV Adrián.pdf" class=" button button-cv" id="cv" download="Curriculum Adrián">Descargar CV</a>
-                </div>
-            <div class="home-img">    
-                <img src="" alt="">
-            </div>
-        </section>
-        <!--Sobre Mi-->
-        <section class="about section " id="about">
-            <h2 class="section-title">Sobre Mi</h2>
-
-            <div class="about-container bd-grid">
-                <div class="about-img">
-                    <img src="images/adri.jpeg" alt="">
-                </div>
+        <!------- MAIN ------->
+        <main class="main">
+            <!------- HOME ------->
+            <section class="home section" id="home">
                 
-                <div>
-                    <h2 class="about-subtitle">Soy Adrián Rodríguez Navas</h2>
-                    <p class="about-text">Desarrollador Web Junior con experiencia en 4 proyectos de los cuales 3 fueron
-                        en remoto. Actual estudiante de Ingeniería en la ULPGC.
-                        Pienso que el trabajo en equipo, el saber escuchar y el trabajo duro son unas de las
-                        claves para que los proyectos salgan adelante. Me defino como una persona
-                        entusiasta y soñadora, que piensa llegar a los más alto en el mundo tecnológico.</p>           
-                </div>                                   
-            </div>
-        </section>
-        <!--Habilidades-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Habilidades</h2>
+            </section>
 
-            <div class="skills-container bd-grid">          
-                <div>
-                    <h2 class="skills-subtitle">Hard Skills</h2>
-                    <p class="skills-text">Estas son mis habilidades en lo referente a la programación actualmente. Poco a poco ire refinandolas hasta poder decir que soy un Full-Stack Web Developer.</p>
-                    <div class="skills-data">
-                        <div class="skills-names skills-html">
-                            <i class='bx bxl-html5 skills-icon'></i>
-                            <span class="skills-name">HTML5</span>
-                        </div>
-                        <div>
-                            <span class="skills-percentage">75%</span>
-                        </div>
-                    </div>
-                        <div class="skills-data">
-                            <div class="skills-names skills-css">
-                                <i class='bx bxl-css3 skills-icon'></i>
-                                <span class="skills-name">CSS3</span>
-                            </div>
-                            <div>
-                                <span class="skills-percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills-data">
-                            <div class="skills-names skills-js">
-                                <i class='bx bxl-javascript skills-icon'></i>
-                                <span class="skills-name">JS</span>
-                            </div>
-                            <div>
-                                <span class="skills-percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills-data">
-                            <div class="skills-names skills-vuejs">
-                                <i class='bx bxl-vuejs skills-icon'></i>
-                                <span class="skills-name">VueJs</span>
-                            </div>
-                            <div>
-                                <span class="skills-percentage">60%</span>
-                            </div>
-                        </div>
-                        <div class="skills-data">
-                            <div class="skills-names skills-reactjs">
-                                <i class='bx bxl-react skills-icon'></i>
-                                <span class="skills-name">ReactJs</span>
-                            </div>
-                            <div>
-                                <span class="skills-percentage">20%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <!--Proyectos-->
-        <section class="proyects section" id="proyects">
-            <h2 class="section-title">Proyectos</h2>
-            <div class="proyects-container bd-grid">
-                <div class="proyects-container bd-grid">
-                    <div class="proyects-img">
-                        <a href="https://adrianrdguez.github.io/avOid2.0/">
-                            <img  src="images/avoid2.0.png" alt="">
-                        </a>
-                    <div/>
-                </div>
-            </div>
-        </section>
-        <!--Contacto-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contacto</h2>
-            <div class="contact-container bd-grid">
-                <form action="" class="contact-form">
-                    <input type="text" placeholder="Nombre" class="contact-input">
-                    <input type="mail" placeholder="Email" class="contact-input">
-                    <textarea name="" id="" placeholder="Aquí puedes escribirme..." cols="0" rows="10" class="contact-input"></textarea>
-                    <input type="button" value="Enviar" class="contact-button button">
-                </form>
-            </div>
-        </section>
-    </main>
+            <!------- ABOUT ------->
+            <section class="about section" id="about">
 
-    </main>
-    
-    <!--Footer-->
+        
+            </section>
 
-    <!--Scroll JS-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!--Main JS-->
-    <script src="js/main.js"></script>
-</body>
+            <!------- SKILLS ------->
+            <section class="skills section" id="skills">
 
 
+            </section>
+
+            <!------- QUALIFICATION ------->
+            <section class="qualification section">
+
+
+            </section>
+
+            <!------- SERVICES ------->
+            <section class="services section" id="services">
+                
+
+            </section>
+
+            <!------- PORTFOLIO ------->
+            <section class="portfolio section" id="portfolio">
+                
+
+            </section>
+
+            <!------- PROJECT IN MIND ------->
+            <section class="project section">
+
+
+            </section>
+
+            <!------- TESTIMONIAL ------->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!------- CONTACT ME ------->
+            <section class="contact section" id="contact">
+
+
+            </section>
+        </main>
+
+        <!------- FOOTER ------->
+        <footer class="footer">
+
+            
+        </footer>
+        
+        <!------- SCROLL TOP ------->
+        
+
+        <!------- SWIPER JS ------->
+        <script src=""></script>
+
+        <!------- MAIN JS ------->
+        <script src=""></script>
+    </body>
 </html>
