@@ -7,7 +7,7 @@ const   navMenu = document.getElementById('nav-menu'),
 /* Validate if constant exists */
 if(navToggle){
     navToggle.addEventListener('click', () =>{
-        navMenu.style.bottom = 0;
+        navMenu.classList.add('show-menu');
         navToggle.style.visibility = 'hidden';
     })
 }     
@@ -16,12 +16,20 @@ if(navToggle){
 /* Validate if constant exists */
 if(navClose){
     navClose.addEventListener('click', () =>{
-        navMenu.style.bottom = '-100%';
+        navMenu.classList.remove('show-menu');
         navToggle.style.visibility = 'visible';
     })
 } 
 
 /*------ REMOVE MENU MOBILE ------*/
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction(){
+    const navMenu = document.getElementById('nav-menu')
+    navMenu.classList.remove('show-menu')
+    navToggle.style.visibility = 'visible';
+}
+navLink.forEach(e => e.addEventListener('click', linkAction))
 
 
 /*------ ACCORDION SKILLS ------*/

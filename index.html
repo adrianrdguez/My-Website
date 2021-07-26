@@ -1,139 +1,221 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!------- UNICONS ------->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!------- SWIPER CSS ------->
-        <link rel="stylesheet" href="">
-        
-        <!------- CSS ------->
-        <link rel="stylesheet" href="css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!------- HEADER ------->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Adrisite</a>
+    <!------- UNICONS ------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i>Inicio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>Sobre Mi
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-dumbbell nav__icon"></i>Habilidades
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-bag nav__icon"></i>Servicios
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-clipboard-alt nav__icon"></i>Portfolio
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-navigator nav__icon"></i>Contacta
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id='nav-close'></i>
+    <!------- SWIPER CSS ------->
+    <link rel="stylesheet" href="">
+
+    <!------- CSS ------->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!------- HEADER ------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Adrisite</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Sobre Mi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-dumbbell nav__icon"></i>Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-bag nav__icon"></i>Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-clipboard-alt nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-navigator nav__icon"></i>Contacta
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id='nav-close'></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
                 </div>
+            </div>
+        </nav>
+    </header>
 
-                <div class="nav__btns">
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+    <!------- MAIN ------->
+    <main class="main">
+        <!------- HOME ------->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="" target="blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="" target="blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="" target="blank" class="home__social-icon">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path fill="#8A3FFC"
+                                    d="M68.1,-37.5C81.7,-15.9,81.4,15.5,67.7,39.1C54.1,62.7,27,78.6,-0.8,79.1C-28.7,79.6,-57.4,64.6,-69.8,41.7C-82.2,18.8,-78.4,-12.1,-64,-34.2C-49.7,-56.3,-24.9,-69.6,1.2,-70.3C27.3,-71,54.6,-59.2,68.1,-37.5Z"
+                                    transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path fill="#8A3FFC"
+                                    d="M68.1,-37.5C81.7,-15.9,81.4,15.5,67.7,39.1C54.1,62.7,27,78.6,-0.8,79.1C-28.7,79.6,-57.4,64.6,-69.8,41.7C-82.2,18.8,-78.4,-12.1,-64,-34.2C-49.7,-56.3,-24.9,-69.6,1.2,-70.3C27.3,-71,54.6,-59.2,68.1,-37.5Z"
+                                    transform="translate(100 100)" />
+
+                            <image class="home__blob-img" xlink:href="images/adri.jpeg" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, soy Adrián</h1>
+                        <h3 class="home_subtitle">Programador</h3>
+                        <p class="home__description">Desarrollador Full Stack Junior con Frameworks de Javascript.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contactame <i class="uil uil-message button__icon"></i>
+                        </a>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </section>
 
-        <!------- MAIN ------->
-        <main class="main">
-            <!------- HOME ------->
-            <section class="home section" id="home">
-                
-            </section>
+        <!------- ABOUT ------->
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre Mi</h2>
+            <span class="section__subtitle">¿Quien Soy?</span>
 
-            <!------- ABOUT ------->
-            <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="images/adrian.jpeg" alt="" class="about__img">
 
-        
-            </section>
+                <div class="about__data">
+                    <p class="about__description">Desarrollador Web Junior con experiencia en 4 proyectos de los cuales 3 fueron en remoto. Actual estudiante de Ingeniería en la ULPGC. Pienso que el trabajo en equipo, el saber escuchar y el trabajo duro son unas de las claves para que los proyectos salgan adelante. Me defino como una persona entusiasta y soñadora, que piensa llegar a los más alto en el mundo tecnológico.</p>
 
-            <!------- SKILLS ------->
-            <section class="skills section" id="skills">
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">1</span>
+                            <span class="about__info-name">Año<br> de Experiencia.</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">+10</span>
+                            <span class="about__info-name">Proyectos<br> Completados.</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1</span>
+                            <span class="about__info-name">Comapañia<br> Trabajada.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="about__buttons">
+                    <a href="/images/CV Adrián.pdf" class="button button--flex">
+                        Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!------- SKILLS ------->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Estás son mis capacidades.</span>
+
+            <div class="skills__container_container_grid">
+                <div>
+
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div class="skills__title">Desarrollador FrontEnd</div>
+                            <span class="skills__subtitile">Más de 10 proyectos distintos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------- QUALIFICATION ------->
+        <section class="qualification section">
 
 
-            </section>
+        </section>
 
-            <!------- QUALIFICATION ------->
-            <section class="qualification section">
-
-
-            </section>
-
-            <!------- SERVICES ------->
-            <section class="services section" id="services">
-                
-
-            </section>
-
-            <!------- PORTFOLIO ------->
-            <section class="portfolio section" id="portfolio">
-                
-
-            </section>
-
-            <!------- PROJECT IN MIND ------->
-            <section class="project section">
+        <!------- SERVICES ------->
+        <section class="services section" id="services">
 
 
-            </section>
+        </section>
 
-            <!------- TESTIMONIAL ------->
-            <section class="testimonial section">
-                
-
-            </section>
-
-            <!------- CONTACT ME ------->
-            <section class="contact section" id="contact">
+        <!------- PORTFOLIO ------->
+        <section class="portfolio section" id="portfolio">
 
 
-            </section>
-        </main>
+        </section>
 
-        <!------- FOOTER ------->
-        <footer class="footer">
+        <!------- PROJECT IN MIND ------->
+        <section class="project section">
 
-            
-        </footer>
-        
-        <!------- SCROLL TOP ------->
-        
 
-        <!------- SWIPER JS ------->
-        <script src=""></script>
+        </section>
 
-        <!------- MAIN JS ------->
-        <script src="/js/main.js"></script>
-    </body>
+        <!------- CONTACT ME ------->
+        <section class="contact section" id="contact">
+
+
+        </section>
+    </main>
+
+    <!------- FOOTER ------->
+    <footer class="footer">
+
+
+    </footer>
+
+    <!------- SCROLL TOP ------->
+
+
+    <!------- SWIPER JS ------->
+    <script src=""></script>
+
+    <!------- MAIN JS ------->
+    <script src="/js/main.js"></script>
+</body>
+
 </html>
