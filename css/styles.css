@@ -733,7 +733,9 @@ img{
   }
   .about__container,
   .skills__container,
-  .portfolio__container{
+  .portfolio__container,
+  .contact__container,
+  .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
   .qualification__sections{
@@ -743,6 +745,78 @@ img{
   }
 }
 
+@media screen and (min-width: 768px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    margin: 0;
+  }
+  .section{
+    padding: 6rem 0 2rem;
+  }
+  .section__subtitle{
+    margin-bottom: 4rem;
+  }
+  .header,
+  .main,
+  .footer__container{
+    padding: 0 1rem;
+  }
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 1rem;
+  }
+  .nav__icon,
+  .nav__close,
+  .nav__toggle{
+    display: none;
+  }
+  .nav__list{
+    display: flex;
+    column-gap: 2rem;
+  }
+  .nav__menu{
+    margin-left: auto;
+  }
+  .change-theme{
+    margin: 0;
+  }
+  .home__container{
+    row-gap: 5rem;
+  }
+  .home__content{
+    padding-top: 5.5rem;
+  }
+  .home__blob{
+    width: 270px;
+  }
+  .home__scroll{
+    display: block;
+  }
+  .home__scroll-button{
+    margin-left: 3rem;
+  }
+  .about__container{
+    column-gap: 5rem;
+  }
+  .about__img{
+    width: 350px;
+  }
+  .about__description{
+    text-align: initial;
+  }
+  .about__info{
+    justify-content: space-between;
+  }
+  .about__buttons{
+    justify-content: initial;
+  }
+
+}
+
 
 /* For large devices */
+
 
